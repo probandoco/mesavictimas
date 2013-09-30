@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Cousine);
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
@@ -301,7 +301,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ced7f4;
+  background-color: #fbebd9;
 }
 
 input,
@@ -350,7 +350,7 @@ img {
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #ced7f4;
+  background-color: #fbebd9;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1440,7 +1440,7 @@ th {
 }
 
 .table .table {
-  background-color: #ced7f4;
+  background-color: #fbebd9;
 }
 
 .table-condensed > thead > tr > th,
@@ -3905,7 +3905,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   cursor: default;
-  background-color: #ced7f4;
+  background-color: #fbebd9;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
 }
@@ -3953,7 +3953,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #ced7f4;
+    border-bottom-color: #fbebd9;
   }
 }
 
@@ -4038,7 +4038,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #ced7f4;
+    border-bottom-color: #fbebd9;
   }
 }
 
@@ -5040,7 +5040,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #ced7f4;
+  background-color: #fbebd9;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
