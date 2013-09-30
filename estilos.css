@@ -6,6 +6,11 @@ body {
   height: 100%;
   font-family: 'Lily Script One', cursive;
   /* The html and body elements cannot have any padding or margin. */
+background: url('imagenes/fondo2.png') no-repeat center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
 }
 
 /* Wrapper for page content to push down footer */
@@ -92,4 +97,9 @@ code {
 
   font-family: 'Cousine', sans-serif;
 
+}
+.fondocontainer{
+  background: #F9F9F7;
+  min-height: 100%;
+  border-radius: 0 0 0 3em;
 }
