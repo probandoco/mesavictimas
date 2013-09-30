@@ -103,3 +103,8 @@ code {
   min-height: 100%;
   border-radius: 0 0 5em 0;
 }
+
+#accordion{
+  margin-bottom: 50px;
+  
+}
