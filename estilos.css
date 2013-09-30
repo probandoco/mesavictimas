@@ -13,30 +13,26 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by its height */
-  margin: 0 auto -135px;
+  margin: 0 auto -60px;
   /* Pad bottom by footer height */
-  padding: 0 0 135px;
+  padding: 0 0 60px;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 135px;
-  background-color: #004080;
+  height: 60px;
+  background-color: #fff;
 }
 
 
-@media screen and ( max-width: 992px ) {
+/*@media screen and ( max-width: 992px ) {
 #wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  /* Negative indent footer by its height */
   margin: 0 auto -270px;
-  /* Pad bottom by footer height */
   padding: 0 0 270px;
 }
-
-/* Set the fixed height of the footer here */
 #footer {
   height: 270px;
   background-color: #004080;
@@ -46,7 +42,7 @@ body {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }
-}
+}*/
 
 
 
@@ -79,7 +75,7 @@ code {
   margin-bottom: 0.5em;
 }
 .navbar{
-  background: #004080;
+  background: #fff;
 }
 .navbar-brand{
   color: #F5F5F5 !important;
