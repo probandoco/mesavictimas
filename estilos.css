@@ -21,7 +21,7 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 135px;
-  background-color: #f5f5f5;
+  background-color: #004080;
 }
 
 
@@ -39,11 +39,12 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 270px;
-  background-color: #f5f5f5;
+  background-color: #004080;
 } 
 .imagenlogo{
   width: 100%;
-  margin-top: 0em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 }
 
@@ -74,5 +75,18 @@ code {
 
 .imagenlogo{
   width: 100%;
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.navbar{
+  background: #004080;
+}
+.navbar-brand{
+  color: #F5F5F5 !important;
+}
+.navbar-nav li a{
+  color: #F5F5F5 !important;
+}
+.navbar-nav li.active a{
+  color: #004080 !important;
 }
