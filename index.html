@@ -8,14 +8,14 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="bootstrap3/docs-assets/ico/favicon.png">
 
-    <title>Mesa nacional de Participación Efectiva de las Víctimas</title>
+    <title>Mesa Nacional de Participación Efectiva de las Víctimas</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap3/less/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="estilos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="galeria/css/blueimp-gallery.min.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootstrap3/docs-assets/js/html5shiv.js"></script>
@@ -31,7 +31,7 @@
       <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="col-md-3"><img src="imagenes/supdp.png" alt="Defensoría del Pueblo" class="img-rounded"></div>
-          <div class="col-md-6"><h5 class="fuenteGoogle">Mesa nacional de Participación Efectiva de las Víctimas</h5></div>
+          <div class="col-md-6"><h5 class="fuenteGoogle">Mesa Nacional de Participación Efectiva de las Víctimas</h5></div>
           <div class="col-md-3"><img src="imagenes/supunidad.png" alt="Defensoría del Pueblo" class="img-rounded"></div>
         </div>
       </div>
@@ -65,6 +65,18 @@
             <p>En estos espacios podrán participar las organizaciones de víctimas y las organizaciones defensoras de derechos de las víctimas.</p>
 
             <p>Las MPV responderán a lógicas territoriales, por lo que se crearán mesas municipales, mesas departamentales y una mesa nacional. El procedimiento para la conformación de las MPV iniciará con la inscripción de las organizaciones interesadas en participar en estos espacios en la Personería, en el caso del nivel municipal y ante la Defensoría del Pueblo en el caso de las mesas departamentales, y nacional. Asimismo será requisito indispensable para hacer parte de la MPV del nivel departamental, pertenecer a la MPV del nivel municipal correspondiente, y para la MPV del nivel nacional, pertenecer a la MPV del nivel departamental correspondiente.            </p>
+
+            <div id="links">
+                <a href="imagenes/gal/01.jpg" title="Conformación de Mesa de participación Departamental Defensoría Regional Bolívar">
+                    <img src="imagenes/gal/mini01.jpg" alt="Conformación de Mesa de participación Departamental Defensoría Regional Bolívar">
+                </a>
+                <a href="imagenes/gal/02.jpg" title="Conformación de Mesa de participación Departamental Defensoría Regional Bolívar">
+                    <img src="imagenes/gal/mini02.jpg" alt="Conformación de Mesa de participación Departamental Defensoría Regional Bolívar">
+                </a>
+                <a href="imagenes/gal/03.jpg" title="Conformación de Mesa de participación departamental Defensoría Regional Bolívar">
+                    <img src="imagenes/gal/mini03.jpg" alt="Conformación de Mesa de participación departamental Defensoría Regional Bolívar">
+                </a>
+            </div>            
                   </div>
                 </div>
               </div>
@@ -123,8 +135,11 @@
                       <li>ii. Garantice el acceso a la información. </li>
                       <li>iii. Diseñe espacios de participación adecuados para la efectiva participación de las víctimas en los niveles nacional, departamental y municipal. </li>
                       <li>iv. Lleve a cabo ejercicios de rendición de cuentas sobre el cumplimiento de los proyectos y programas que se diseñen y ejecuten en el marco de la ley y del cumplimiento de lo dispuesto por el artículo 209 de la Constitución. </li>
+                      
+
 
                     </ul>
+                    <a href="http://www.defensoria.org.co/leydevictimas/" class="btn btn-primary btn-lg" target="_blank">Más información acerca de la Ley de Víctimas</a>
                   </div>
                 </div>
               </div>
@@ -151,11 +166,32 @@
       </div>
     </div>
 
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap3/docs-assets/js/jquery.js"></script>
     <script src="bootstrap3/dist/js/bootstrap.min.js"></script>
+    <script src="galeria/js/blueimp-gallery.min.js"></script>
   </body>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>  
 </html>
