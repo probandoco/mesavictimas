@@ -297,11 +297,11 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #fbebd9;
+  background-color: #ebece8;
 }
 
 input,
@@ -350,7 +350,7 @@ img {
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #fbebd9;
+  background-color: #ebece8;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -473,7 +473,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -707,7 +707,7 @@ code,
 kdb,
 pre,
 samp {
-  font-family: Arial, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
 code {
@@ -1440,7 +1440,7 @@ th {
 }
 
 .table .table {
-  background-color: #fbebd9;
+  background-color: #ebece8;
 }
 
 .table-condensed > thead > tr > th,
@@ -3905,7 +3905,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   cursor: default;
-  background-color: #fbebd9;
+  background-color: #ebece8;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
 }
@@ -3953,7 +3953,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #fbebd9;
+    border-bottom-color: #ebece8;
   }
 }
 
@@ -4038,7 +4038,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #fbebd9;
+    border-bottom-color: #ebece8;
   }
 }
 
@@ -5040,7 +5040,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #fbebd9;
+  background-color: #ebece8;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
