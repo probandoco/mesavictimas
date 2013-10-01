@@ -108,3 +108,7 @@ code {
   margin-bottom: 50px;
   
 }
+
+img.imagesLightbox{
+  vertical-align:bottom;
+}
