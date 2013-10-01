@@ -82,6 +82,8 @@ code {
 }
 .navbar{
   background: #fff;
+  border-top: 2px #004A99 solid;
+  border-bottom: 2px #004A99 solid;
 }
 .navbar-brand{
   color: #F5F5F5 !important;
@@ -99,9 +101,12 @@ code {
 
 }
 .fondocontainer{
-  background: #F9F9F7;
+  background: rgba(249,249,247,0.5);
   min-height: 100%;
   border-radius: 0 0 5em 0;
+}
+.panel{
+  background: rgba(255,255,255,0.4);
 }
 
 #accordion{
@@ -110,5 +115,5 @@ code {
 }
 
 img.imagesLightbox{
-  vertical-align:bottom;
+  vertical-align:text-bottom !important;
 }
